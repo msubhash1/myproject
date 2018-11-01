@@ -6,7 +6,7 @@
     <groupId>javascript</groupId>
     <artifactId>javascript1</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>javascript javascript1</name>
 
