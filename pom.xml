@@ -24,19 +24,17 @@
         </dependency>
     </dependencies>
 
-   <plugin>
-  <artifactId>maven-war-plugin</artifactId>
-  <version>3.0.0</version>
-</plugin>
     <build>
         <sourceDirectory>src/main/kotlin</sourceDirectory>
 
         <plugins>
+             <artifactId>maven-war-plugin</artifactId>
+            <version>3.0.0</version>
             <plugin>
                 <artifactId>kotlin-maven-plugin</artifactId>
                 <groupId>org.jetbrains.kotlin</groupId>
                 <version>${kotlin.version}</version>
-
+                  
                 <executions>
                     <execution>
                         <id>compile</id>
